@@ -9,8 +9,6 @@ This repository contains the Colab notebook used in my MSc thesis:
 
 ## Files
 - `Digital_Twin_Productivity.ipynb` — step-wise notebook (Logistic Regression, Random Forest, Gradient Boosting + simulations)
-- `requirements.txt` — basic Python libs
-- `outputs/` — optional metrics/figures
 
 ## Dataset
 The dataset is **Remote Work Productivity** from Kaggle.  
