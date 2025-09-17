@@ -3,21 +3,24 @@ Colab notebook and code for MSc thesis: Digital Twin Models for Remote Employee 
 
 # Digital Twin – Remote/Hybrid Productivity (MSc Thesis)
 
-This repository contains the Colab notebook used in my MSc thesis to model and simulate productivity under hybrid/remote work.
+This repository contains the Colab notebook used in my MSc thesis:
+**Digital Twin Models for Remote Employee Productivity in Hybrid Work Environments.**
+ to model and simulate productivity under hybrid/remote work.
 
 ## Files
-- `notebooks/Digital_Twin_3models_STEPWISE.ipynb` — step-wise notebook (Logistic Regression, Random Forest, Gradient Boosting + simulations)
+- `Digital_Twin_Productivity.ipynb` — step-wise notebook (Logistic Regression, Random Forest, Gradient Boosting + simulations)
 - `requirements.txt` — basic Python libs
 - `outputs/` — optional metrics/figures
 
 ## Dataset
-Use the Kaggle dataset “Remote Work Productivity.” Download the CSV and place it in the Colab runtime as:
-`remote_work_productivity.csv`
+The dataset is **Remote Work Productivity** from Kaggle.  
+Download it here: https://www.kaggle.com/datasets/mrsimple07/remote-work-productivity  
+Save it as `remote_work_productivity.csv` and upload it into the Colab runtime.
 
 ## Run (Colab)
-1. Open the notebook in Google Colab.
-2. Upload `remote_work_productivity.csv` to the runtime.
-3. Run all cells top-to-bottom.
+1. Open the notebook in [Google Colab](https://colab.research.google.com/).
+2. Upload  the dataset CSV (`remote_work_productivity.csv`) when prompted to the runtime.
+3. Run all cells top-to-bottom step-by-step
 
 ## Reproducibility
-Random seeds are set; the notebook prints metrics and simulation outputs used in the thesis.
+Random seeds are set; the notebook prints metrics and simulation results reported in the thesis.
